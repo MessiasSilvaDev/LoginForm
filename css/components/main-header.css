@@ -1,0 +1,14 @@
+.main-header {
+  margin-bottom: 3rem;
+}
+
+.main-header .logo {
+  margin-bottom: 3rem;
+}
+
+.main-header .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
