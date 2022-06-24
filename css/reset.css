@@ -1,9 +1,12 @@
 :root {
-  --text-base: #afb6c2;
-  --text-title: #d4ccb6;
-  --background: #191816;
-  --form-background: #24221f;
-  --primary-color: #ffc632;
+  --text-base: #aeb5c1;
+  --text-title: #d4cbb5;
+  --background: #181716;
+  --form-background: #23221f;
+  --primary-color: hsl(43, 100%, 60%);
+  --primary-color-light: hsl(43, 100%, 77%);
+  --border-color: #868686;
+  --button-color: #473404;
 }
 
 * {
@@ -13,4 +16,18 @@
   border: none;
   text-decoration: none;
   list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  color: var(--text-base);
+}
+
+input::placeholder {
+  color: var(--text-base);
 }

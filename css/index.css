@@ -1,0 +1,152 @@
+.main-section {
+  background-color: var(--background);
+  width: 100%;
+}
+
+.main-wrapper {
+  padding: 4rem 2rem;
+}
+
+.main-header {
+  margin-bottom: 3rem;
+}
+
+.main-header .logo {
+  margin-bottom: 3rem;
+}
+
+.main-header .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-title {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: var(--text-title);
+}
+
+.main-title.-primaryColor {
+  color: var(--primary-color);
+}
+
+.main-title.-sizeLow {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
+.main-title.-weightLow {
+  font-weight: 400;
+}
+
+.main-subtitle {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.main-subtitle.-rememberMe {
+  font-weight: 400;
+  line-height: 1.9rem;
+}
+
+.main-subtitle.-fontLow {
+  font-size: 1.4rem;
+}
+
+.main-form .wrapper {
+  border: 0.1rem solid var(--border-color);
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.main-form .wrapper.-inFocus {
+  border-color: var(--primary-color);
+  box-shadow: 0rem 0rem 0rem 0.2rem var(--primary-color-light);
+}
+
+.main-form input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  color: var(--text-base);
+}
+
+.main-form .checkBox {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border: 0.1rem solid var(--border-color);
+  border-radius: 0.4rem;
+  appearance: none;
+  display: grid;
+  place-content: center;
+}
+
+.main-form .checkBox:checked {
+  border-color: var(--primary-color);
+}
+
+.main-form .checkBox:focus {
+  outline: 0.1rem solid currentColor;
+  outline-offset: 0.3rem;
+}
+
+.main-form .checkBox::before {
+  display: inline-block;
+  content: "";
+  width: 1.2rem;
+  height: 1.2rem;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1rem 1rem var(--primary-color);
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+.main-form .checkBox:checked::before {
+  transform: scale(1);
+}
+
+.main-form .mainWrapperCheckBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-form .wrapperCheckBox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.main-button {
+  width: 100%;
+  padding: 1.2rem 2.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  border-radius: 0.4rem;
+
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--button-color);
+  text-transform: uppercase;
+}
+
+.main-form .paragraph {
+  text-align: center;
+}
