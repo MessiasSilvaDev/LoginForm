@@ -1,9 +1,4 @@
-
-
-
-
-
-.main-form .wrapper {
+.wrapper-input {
   border: 0.1rem solid var(--border-color);
   border-radius: 0.4rem;
   padding: 1.2rem;
@@ -14,19 +9,12 @@
   margin-bottom: 2rem;
 }
 
-.main-form .wrapper.-inFocus {
+.wrapper-input.-inFocus {
   border-color: var(--primary-color);
   box-shadow: 0rem 0rem 0rem 0.2rem var(--primary-color-light);
 }
 
-.main-form input {
-  border: none;
-  background-color: transparent;
-  width: 100%;
-  color: var(--text-base);
-}
-
-.main-form .checkBox {
+.main-checkBox {
   display: inline-block;
   width: 2rem;
   height: 2rem;
@@ -37,16 +25,16 @@
   place-content: center;
 }
 
-.main-form .checkBox:checked {
+.main-checkBox:checked {
   border-color: var(--primary-color);
 }
 
-.main-form .checkBox:focus {
+.main-checkBox:focus {
   outline: 0.1rem solid currentColor;
   outline-offset: 0.3rem;
 }
 
-.main-form .checkBox::before {
+.main-checkBox::before {
   display: inline-block;
   content: "";
   width: 1.2rem;
@@ -58,20 +46,8 @@
   clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
 }
 
-.main-form .checkBox:checked::before {
+.main-checkBox:checked::before {
   transform: scale(1);
-}
-
-.main-form .mainWrapperCheckBox {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.main-form .wrapperCheckBox {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 .main-button {
@@ -91,8 +67,4 @@
   line-height: 2.7rem;
   color: var(--button-color);
   text-transform: uppercase;
-}
-
-.main-form .paragraph {
-  text-align: center;
 }

@@ -1,0 +1,22 @@
+.main-form input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  color: var(--text-base);
+}
+
+.main-form .mainWrapperCheckBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-form .wrapperCheckBox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.main-form .paragraph {
+  text-align: center;
+}
