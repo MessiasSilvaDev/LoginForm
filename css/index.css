@@ -1,20 +1,7 @@
 
 
 
-.main-subtitle {
-  font-weight: 500;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-}
 
-.main-subtitle.-rememberMe {
-  font-weight: 400;
-  line-height: 1.9rem;
-}
-
-.main-subtitle.-fontLow {
-  font-size: 1.4rem;
-}
 
 .main-form .wrapper {
   border: 0.1rem solid var(--border-color);
