@@ -4,6 +4,13 @@
 
 .main-header .logo {
   margin-bottom: 3rem;
+  width: 35%;
+  max-width: 25rem;
+}
+
+.main-header .logIn {
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .main-header .wrapper {
