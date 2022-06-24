@@ -17,6 +17,11 @@
   gap: 0.5rem;
 }
 
+.main-form .main-checkBox {
+  width: 2rem;
+  border: 0.1rem solid var(--border-color);
+}
+
 .main-form .paragraph {
   text-align: center;
 }
