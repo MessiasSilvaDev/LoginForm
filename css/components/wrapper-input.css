@@ -13,3 +13,20 @@
   border-color: var(--primary-color);
   box-shadow: 0rem 0rem 0rem 0.2rem var(--primary-color-light);
 }
+
+.wrapper-input .svg path {
+  stroke: var(--primary-color);
+}
+
+@media (min-width: 768px) {
+  .wrapper-input {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrapper-input {
+    width: 100%;
+  }
+}

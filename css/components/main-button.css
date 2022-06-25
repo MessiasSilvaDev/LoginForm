@@ -15,3 +15,16 @@
   color: var(--button-color);
   text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+  .main-button {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-button {
+    width: 100%;
+  }
+}

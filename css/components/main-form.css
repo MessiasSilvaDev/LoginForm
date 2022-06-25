@@ -25,3 +25,36 @@
 .main-form .paragraph {
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .main-form {
+    width: 100%;
+  }
+
+  .main-form label.main-subtitle {
+    margin-left: 10%;
+  }
+
+  .main-form .mainWrapperCheckBox {
+    width: 80%;
+    margin-inline: auto;
+  }
+
+  .main-form .mainWrapperCheckBox .main-subtitle {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-form {
+    width: 60%;
+  }
+
+  .main-form label.main-subtitle {
+    margin-left: 0;
+  }
+
+  .main-form .mainWrapperCheckBox {
+    width: 100%;
+  }
+}

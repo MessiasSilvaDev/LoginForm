@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+  .wrapper-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

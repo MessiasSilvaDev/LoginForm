@@ -19,3 +19,26 @@
   gap: 1rem;
   margin-bottom: 0.5rem;
 }
+
+@media (min-width: 768px) {
+  .main-header {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-header .logo {
+    width: 30%;
+    max-width: none;
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-header {
+    width: 60%;
+  }
+}
